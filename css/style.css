@@ -1,0 +1,65 @@
+/* Шукаємо (робимо запит) до всіх об'єктів */
+* {
+  /* color: black; */
+}
+/* Шукаємо (робимо запит) по назві тегу */
+div {
+  color: cadetblue;
+}
+/* Усі DIV з класом main-second-hokage */
+div.main-second-hokage {
+  color: fuchsia;
+}
+/* Звертаємось/описуємо до усіх тегів A на сторінці */
+a {
+  color: goldenrod;
+}
+/* Шукаємо (робимо запит по назві ID) */
+#header {
+  color: red;
+}
+/* Шукаємо (робимо запит по назві класу) */
+.main-first-hokage {
+  color: darkblue;
+}
+/* Усі теги h2 першого рівня (безпосередні) в середені об'єктів 
+з класом main-first-hokage */
+.main-first-hokage > h2 {
+  color: green;
+}
+/* Звертаємось відразу до об'єктів з класом main-fifth-hokage та
+	до об'єктів з класом main-sixth-hokage
+ */
+.main-fifth-hokage,
+.main-sixth-hokage {
+  color: crimson;
+}
+/* Усі теги P в середені об'єктів з класом main-third-hokage */
+.main-third-hokage p {
+  color: maroon;
+}
+/* Усі об'єкти з класом main-fourth-hokage в середені об'єктів з класом main */
+.main .main-fourth-hokage {
+  color: limegreen;
+}
+/* Усі теги з класами main-seventh-hokage та nar одночасно */
+.main-seventh-hokage.nar {
+  color: indigo;
+}
+/* Тег span який знаходяться беспосередньо далі по коду після 
+об'єктів з класом sixth-hokage-nav та мають той самий рівень вкладеності */
+.sixth-hokage-nav + span {
+  color: blue;
+}
+/* Усі теги span які знаходяться далі по коду після об'єктів 
+з класом fifth-hokage-nav та мають той самий рівень вкладеності */
+.fifth-hokage-nav ~ span {
+  color: darkorchid;
+}
+/* Усі об'єкти в середені об'єктів з класом footer */
+.footer * {
+  color: black;
+}
+.footer mark {
+  color: blue;
+}
